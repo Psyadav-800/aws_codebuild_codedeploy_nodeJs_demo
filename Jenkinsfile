@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    tools {nodejs "node16" }
+    tools {PHP "PHP 7" }
     environment {
         NODE_ENV='production'
     }
